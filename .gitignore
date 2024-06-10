@@ -1,0 +1,31 @@
+# Composer
+/vendor/
+/composer.lock
+
+# PHP-specific
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+/test-results.xml
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
+
+# Ignore IDE specific files
+/.idea/
+/*.iml
+.vscode/
+/nbproject/
+*.sublime-project
+*.sublime-workspace

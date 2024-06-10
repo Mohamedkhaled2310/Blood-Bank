@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+* {
+    font-family: Poppins,Changa,sans-serif!important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+}
+
+.addbar {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.addbar h3 {
+    color: #4671EA;
+    font-size: 28px;
+    text-align: center;
+}
+
+.addbar textarea {
+    width: 100%;
+    resize: none;
+    height: 59px;
+    outline: none;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    max-height: 330px;
+    caret-color: #4671EA;
+    border: 1px solid #bfbfbf;
+}
+
+textarea::placeholder {
+    color: #b3b3b3;
+}
+
+textarea:is(:focus,
+ :valid) {
+    padding: 14px;
+    border: 2px solid #4671EA;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0px;
+}
+
+.fcc-btn {
+    background-color: #4671EA;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.fcc-btn:hover {
+    background-color: #223094;
+}
+
+.tbl {
+    position: absolute;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 800px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #4671EA;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.del {
+    color: darkred;
+    font-size: 1.2em;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #4671EA;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #4671EA;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.container .content {
+    text-align: center;
+}
+
+.container .content h3 {
+    font-size: 30px;
+    color: #333;
+}
+
+.container .content h3 span {
+    background: #4671EA;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+.container .content h1 {
+    font-size: 50px;
+    color: #333;
+}
+
+.container .content h1 span {
+    color: #4671EA;
+}
+
+.container .content p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+.container .content .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+
+.container .content .btn:hover {
+    background: #4671EA;
+}
+
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #071c2a;
+}
+
+.form-container form {
+    padding: 20px;
+    border-radius: 5px;
+    background: #415265;
+    text-align: center;
+    width: 500px;
+}
+
+.form-container form h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: whitesmoke !important;
+}
+
+.form-container form input,
+.form-container form select {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #0c1f2d;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.form-container form select option {
+    background: #296e9f;
+}
+
+.form-container form .form-btn {
+    background: #0b132d;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+    background: #4671EA;
+    color: #fff;
+}
+
+.form-container form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    text-align: right;
+}
+
+.form-container form p a {
+    color: whitesmoke;
+    font-weight: bold;
+}
+.form-container form p a:hover{
+    color: #c71919;
+    font-weight: bold;
+}
+
+.form-container form .error-msg {
+    margin: 10px 0;
+    display: block;
+    background: #4671EA;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.nav a {
+    direction: ltr;
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.nav a:hover {
+    color: antiquewhite;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 19%;
+    align-items: center;
+    background: url("../images/blood_bank.png") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: #3a6cf4;
+    font-size: 1.4em;
+    font-weight: 400;
+
+
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: red;
+    font-size: 4em;
+    font-weight: 600px;
+
+}
+.center{
+    text-align: center;
+}
+.min-btn {
+    color: #f0f0f0;
+    background-color: #650c0c;
+    text-decoration: none;
+    font-size: 1.14em;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0.9275em 4.1875em;
+    letter-spacing: 1px;
+    border-radius: 19px;
+    transition: 0.7s ease;
+    margin-left: 6%;
+}
+
+.min-btn:hover {
+    background-color: #a47a7a;
+    transform: scale(1.1);
+}
+@media screen and (max-width:767px){
+
+    .center{
+        padding-left: 0px;
+        text-align: center;
+        margin-top: 25%;
+    }
+}
